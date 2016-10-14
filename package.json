@@ -1,0 +1,19 @@
+{
+  "name": "colortools",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyapub/colortools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyapub/colortools/issues"
+  },
+  "homepage": "https://github.com/miyapub/colortools#readme"
+}
