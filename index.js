@@ -18,7 +18,7 @@ module.exports={
       throw new TypeError('Expected three numbers below 256');
     }
 
-    return ((blue | green << 8 | red << 16) | 1 << 24).toString(16).slice(1);
+    return '#'+((blue | green << 8 | red << 16) | 1 << 24).toString(16).slice(1);
   },
   hex2rgb:function(hex){
     if (typeof hex !== 'string') {
